@@ -10,6 +10,10 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* Heading */
 
@@ -39,6 +43,24 @@ body {
 
 .home-banner {
     background: no-repeat center url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80), linear-gradient(0deg, rgba(35,36,0,.3) 0%, rgba(0,212,255,.1) 100%);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.recipe-banner1 {
+    background: no-repeat center url("images/lime-chicken.jpeg"), linear-gradient(0deg, rgba(35,36,0,.3) 0%, rgba(0,212,255,.1) 100%);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.recipe-banner2 {
+    background: no-repeat center url("images/pexels-valeria-boltneva-10038682.jpg"), linear-gradient(0deg, rgba(35,36,0,.3) 0%, rgba(0,212,255,.1) 100%);
+    background-blend-mode: overlay;
+
+}
+
+.recipe-banner3 {
+    background-size: cover;    background: no-repeat center url("images/guacamole.jpeg"), linear-gradient(0deg, rgba(35,36,0,.3) 0%, rgba(0,212,255,.1) 100%);
     background-blend-mode: overlay;
     background-size: cover;
 }
@@ -90,7 +112,6 @@ h2 {
 }
 
 .items a {
-    text-decoration: none;
     color: #fff;
     font-size: 25px;
 }
