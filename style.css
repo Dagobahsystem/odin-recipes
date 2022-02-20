@@ -1,177 +1,175 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    color:rgb(66, 65, 65);
-    background-color: rgb(236, 239, 243);
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    font-size: 1.2em;
+  color: rgb(66, 65, 65);
+  background-color: rgb(236, 239, 243);
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 hr {
-    border: none;
-    background-color: rgba(66, 65, 65, 0.274);
-    height: 2px;
-    margin: 50px;
-
+  border: none;
+  background-color: rgba(66, 65, 65, 0.274);
+  height: 2px;
+  margin: 50px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Buttons */
 
 .button {
-    background-color: #4b8b37;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
-    padding: 20px 35px;
+  background-color: #4b8b37;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  padding: 20px 35px;
 }
 
 .button:hover,
 .button:focus {
-    background-color: rgb(66, 65, 65);
-    transition: all 250ms;
+  background-color: rgb(66, 65, 65);
+  transition: all 250ms;
 }
 
 .button-home {
-    background-color: rgb(66, 65, 65);
+  background-color: rgb(66, 65, 65);
 }
 
 .button-home:hover,
 .button-home:focus {
-    background-color: rgb(46, 45, 45);
+  background-color: rgb(46, 45, 45);
 }
-
 
 /* Heading */
 
 .heading {
-    background-color: rgb(236, 239, 243);
-    height: 50px
+  background-color: rgb(236, 239, 243);
+  height: 50px;
 }
 
 .heading p {
-    padding-top: 12px;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 10px;
+  padding-top: 12px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 10px;
 }
-
 
 /* Banner */
 
 .hero-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 25em;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25em;
+  color: white;
 }
 
 .home-banner {
-    background: no-repeat center url("images/pexels-ella-olsson-1640777.jpg"), linear-gradient(0deg, rgba(35,36,0,.4) 0%, rgba(0,212,255,.1) 100%);
-    background-blend-mode: overlay;
-    background-size: cover;
+  background: no-repeat center url("images/pexels-ella-olsson-1640777.jpg"),
+    linear-gradient(0deg, rgba(35, 36, 0, 0.4) 0%, rgba(0, 212, 255, 0.1) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 .recipe-banner1 {
-    background: no-repeat center url("images/pexels-engin-akyurt-2673353.jpg"), linear-gradient(0deg, rgba(35,36,0,.4) 0%, rgba(0,212,255,.1) 100%);
-    background-blend-mode: overlay;
-    background-size: cover;
+  background: no-repeat center url("images/pexels-engin-akyurt-2673353.jpg"),
+    linear-gradient(0deg, rgba(35, 36, 0, 0.4) 0%, rgba(0, 212, 255, 0.1) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 .recipe-banner2 {
-    background: no-repeat center url("images/pexels-valeria-boltneva-10038682.jpg"), linear-gradient(0deg, rgba(35,36,0,.4) 0%, rgba(0,212,255,.1) 100%);
-    background-blend-mode: overlay;
-
+  background: no-repeat center
+      url("images/pexels-valeria-boltneva-10038682.jpg"),
+    linear-gradient(0deg, rgba(35, 36, 0, 0.4) 0%, rgba(0, 212, 255, 0.1) 100%);
+  background-blend-mode: overlay;
 }
 
 .recipe-banner3 {
-    background-size: cover;    background: no-repeat center url("images/guacamole.jpeg"), linear-gradient(0deg, rgba(35,36,0,.3) 0%, rgba(0,212,255,.1) 100%);
-    background-blend-mode: overlay;
-    background-size: cover;
+  background-size: cover;
+  background: no-repeat center url("images/guacamole.jpeg"),
+    linear-gradient(0deg, rgba(35, 36, 0, 0.3) 0%, rgba(0, 212, 255, 0.1) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 .title {
-    flex: 0 0 400px;
-    font-size: 65px;
-    font-weight: bold;
-    letter-spacing: .5em;
-    text-transform: uppercase; 
+  flex: 0 0 400px;
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
 }
-
 
 /* Recipes */
 
 .description {
-    padding: 30px;
-    font-size: 30px;
+  padding: 30px;
+  font-size: 30px;
 }
 
 .home-heading {
-    padding: 30px 0;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: .2em;
+  padding: 30px 0;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
 }
 
 .recipes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .items {
-    flex-basis: auto;
-    list-style-type: none;
-    margin: 0 30px;
+  flex-basis: auto;
+  list-style-type: none;
+  margin: 0 30px;
 }
 
 .items a {
-    color: #fff;
-    font-size: 25px;
+  color: #fff;
+  font-size: 25px;
 }
 
-
 .recipe-instruct {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
 }
 
 .item-instruct {
-    padding: 10px 20px;
-    max-width: 45%;
-    margin-top: 30px;
+  padding: 10px 20px;
+  max-width: 45%;
+  margin-top: 30px;
 }
 
 .item-instruct ul,
 .item-instruct ol {
-    padding: 20px 30px;
-    text-align: left;
-    line-height: 2em;
+  padding: 20px 30px;
+  text-align: left;
+  line-height: 2em;
 }
 
 .ingredients {
-    background-color: hsla(106, 71%, 50%, 0.178);
-    border-radius: .25rem;
+  background-color: hsla(106, 71%, 50%, 0.178);
+  border-radius: 0.25rem;
 }
 
 .image-credit {
-    display: block;
-    margin: 50px 0;
+  display: block;
+  margin: 50px 0;
 }
-
-
