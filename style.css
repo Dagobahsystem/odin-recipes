@@ -11,6 +11,14 @@ body {
     font-size: 1.2em;
 }
 
+hr {
+    border: none;
+    background-color: rgba(66, 65, 65, 0.274);
+    height: 2px;
+    margin: 50px;
+
+}
+
 a {
     text-decoration: none;
 }
@@ -162,7 +170,7 @@ a {
 
 .image-credit {
     display: block;
-    margin-top: 30px;
+    margin: 50px 0;
 }
 
 
