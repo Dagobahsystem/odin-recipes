@@ -161,6 +161,7 @@ a {
 .item-instruct ol {
     padding: 20px 30px;
     text-align: left;
+    line-height: 2em;
 }
 
 .ingredients {
